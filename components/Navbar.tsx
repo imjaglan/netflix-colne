@@ -12,12 +12,12 @@ const Navbar = () => {
   const [showAccountMenu, setShowAccountMenu] = useState(false);
   const [showBackground, setShowBackground] = useState(false);
 
-  const toggleMobileMenu = useCallback(() => {
-    setShowMobileMenu((curr) => !curr);
+  const toggleAccountMenu = useCallback(() => {
+    setShowAccountMenu((current) => !current);
   }, []);
 
-  const toggleAccountMenu = useCallback(() => {
-    setShowAccountMenu((curr) => !curr);
+  const toggleMobileMenu = useCallback(() => {
+    setShowMobileMenu((current) => !current);
   }, []);
 
   useEffect(() => {
