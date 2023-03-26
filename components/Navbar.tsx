@@ -46,12 +46,12 @@ const Navbar = () => {
 
         {/* Browse and navItems */}
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
-          <NavbarItem label="Home" />
-          <NavbarItem label="Series" />
-          <NavbarItem label="Films" />
-          <NavbarItem label="New & Popular" />
-          <NavbarItem label="My List" />
-          <NavbarItem label="Browse by Language" />
+          <NavbarItem label="Home" axis={-50} />
+          <NavbarItem label="Series" axis={-45} />
+          <NavbarItem label="Films" axis={-40} />
+          <NavbarItem label="New & Popular" axis={-35} />
+          <NavbarItem label="My List" axis={-30} />
+          <NavbarItem label="Browse by Language" axis={-25} />
         </div>
         <div
           onClick={toggleMobileMenu}
